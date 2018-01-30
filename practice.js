@@ -161,7 +161,7 @@ methodCollection.logHello();
 
 function makePerson(name, birthday, ssn) {
   var obj = {};
-  obj['name'] = name;
+  obj.name = name;
   obj['birthday'] = birthday;
   obj['ssn'] = ssn;
   return obj;
