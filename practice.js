@@ -159,11 +159,11 @@ methodCollection.logHello();
   Return a new object with all of the information that you passed in.
 */
 
-function makePerson(name, birthday, ssc) {
+function makePerson(name, birthday, ssn) {
   var obj = {};
   obj['name'] = name;
   obj['birthday'] = birthday;
-  obj['ssc'] = ssc;
+  obj['ssn'] = ssn;
   return obj;
 }
 
